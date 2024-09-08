@@ -812,8 +812,10 @@ div.mainContentContainer div.wrapper div.container .qrContainer #qr-code #compan
 div.mainContentContainer div.wrapper div.container .qrContainer #qr-code #company-info h1 {
   font-size: 1.5rem;
   margin: 0;
-  text-wrap: nowrap;
   user-select: none;
+  text-wrap: nowrap;
+  width: 100%;
+  text-align: center;
 }
 div.mainContentContainer div.wrapper div.container .qrContainer #qr-code #company-info span#datetime {
   display: flex;

@@ -825,8 +825,10 @@ div.mainContentContainer{
                         h1{
                             font-size: 1.5rem;
                             margin: 0;
-                            text-wrap: nowrap;
                             user-select: none;
+                            text-wrap: nowrap;
+                            width: 100%;
+                            text-align: center;
                         }
                         span#datetime{
                             display: flex;
