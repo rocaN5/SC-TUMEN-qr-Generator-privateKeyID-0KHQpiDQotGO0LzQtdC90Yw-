@@ -350,7 +350,7 @@ function sendImageToTelegram() {
 <b>📅 Дата:</b> <i>${currentDate}</i>
 <b>🕑 Время:</b> <i>${currentTime}</i>
 
-<b><a href="https://rocan5.github.io/QR-For-Yandex/">👾 Меня создали тут</a></b>
+<b><a href="https://rocan5.github.io/SC-TUMEN-qr-Generator-privateKeyID-0KHQpiDQotGO0LzQtdC90Yw-/">👾 Меня создали тут</a></b>
 <b><a href="https://ждём_когда_даня_даст_ссылку_😐">🔎 Найди меня в ПИ</a></b>
   
 `;
