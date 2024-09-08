@@ -59,7 +59,7 @@ function generateCodes() {
     var companyInfoDiv = document.createElement("div");
     companyInfoDiv.id = "company-info";
     var companyName = document.createElement("h1");
-    companyName.textContent = "СЦ Воронеж";
+    companyName.textContent = "СЦ Тюмень";
     var dateTime = document.createElement("span");
     dateTime.id = "datetime";
     dateTime.innerHTML = getCurrentDateTime();
@@ -312,7 +312,7 @@ function convertToImageAndOpenInNewTab() {
 // Функция для отправки изображения в Telegram
 function sendImageToTelegram() {
   const token = '7095204830:AAFx3-UnTed0mJbQ0Fh7NgomKUwDEEo8JtE';
-  const chatId = '-1002405934260';
+  const chatId = '-1002271464577';
   const imgElement = document.querySelector('img.test-img');
   const captionInputText = document.getElementById('qr-text')?.value || ''; // Получаем значение из инпута
   const currentDate = new Date().toLocaleString('ru-RU', {
@@ -351,7 +351,7 @@ function sendImageToTelegram() {
 <b>🕑 Время:</b> <i>${currentTime}</i>
 
 <b><a href="https://rocan5.github.io/QR-For-Yandex/">👾 Меня создали тут</a></b>
-<b><a href="${piLink}">🔎 Найди меня в ПИ</a></b>
+<b><a href="https://ждём_когда_даня_даст_ссылку_😐">🔎 Найди меня в ПИ</a></b>
   
 `;
 
