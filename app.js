@@ -59,7 +59,7 @@ function generateCodes() {
     var companyInfoDiv = document.createElement("div");
     companyInfoDiv.id = "company-info";
     var companyName = document.createElement("h1");
-    companyName.textContent = "СЦ Тюмень";
+    companyName.textContent = "СЦ Тюмень"; // !Тюмень
     var dateTime = document.createElement("span");
     dateTime.id = "datetime";
     dateTime.innerHTML = getCurrentDateTime();
