@@ -162,16 +162,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 size: 60,
                 color: PDFLib.rgb(0, 0, 0),
             });
-
-            // Вставляем изображение (если требуется)
-            const arrowPngBytes = await fetch('img/arrow.png').then(res => res.arrayBuffer());
-            const arrowImage = await newPdfDoc.embedPng(arrowPngBytes);
-            page.drawImage(arrowImage, {
-                x: width - 70,
-                y: height,
-                width: 70,
-                height: 70
-            });
         }
 
         const pdfBytes = await newPdfDoc.save();
